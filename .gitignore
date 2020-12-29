@@ -1,0 +1,12 @@
+# macOS artifacts
+.DS_Store
+
+# .NET Core artifacts
+bin/
+obj/
+
+# Editor specific files
+.vscode/
+
+# Private server config files
+.config/
