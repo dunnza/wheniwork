@@ -4,7 +4,7 @@ This repository is my submission for the When I Work code challenge. You can
 search for comments with the word "REQUIREMENT" in them to see me talk about how
 I approached the task.
 
-## How to Run Locally
+## How to Run the Backend Locally
 
 1. You must have the .NET Core SDK 3.1 installed on your machine. The project MIGHT work with the .NET 5 SDK, but I have not tested with that version. The .NET Core version I am using is 3.1.404.
 
@@ -27,11 +27,28 @@ I approached the task.
      - body: `{ "end": "2020-12-26T17:00:00Z" }`
    - `DELETE http://localhost:5000/api/shifts/8fbccc04-141e-4833-9279-3a53408b3b1d`
 
-## How to Test the Live API
+## How to Run the Frontend Locally
+
+1. You must have at least Node.js v14.15.0 installed. That's what I used in development. I'm sure it will work with newer versions and probably even v10.\* but I did not test with them.
+
+2. Navigate to /frontend in your cloned repo (from step 2 above).
+
+3. Run the command `npm install` to install the necessary dependencies (in a different shell from the one in step 3 above).
+
+4. Once step 3 is complete, run the command `npm run dev`.
+
+5. Navigate to `http://localhost:3000` in a browser to see the application and interact with it.
+
+## How to Test the Live Project
 
 This project is hosted on my site at https://www.zachary-dunn.com/wheniwork.
-So you should be able to use your API testing tool of choice to make requests
-against http://www.zachary-dunn.com/wheniwork/api/shifts.
+You should be able to use your API testing tool of choice to make requests
+against http://www.zachary-dunn.com/wheniwork/api/shifts, along with playing
+around with the app.
+
+**NOTE:** For the "best" experience I recommend playing around with it locally
+if possible. I have never actually deployed a Next.js project before and it gave
+me a few problems putting it up on my site that I kinda had to piece together.
 
 ## Notes
 
