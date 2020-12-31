@@ -1,0 +1,7 @@
+.input {
+  @apply border p-2 rounded w-full focus:outline-none focus:ring;
+}
+
+.input:read-only {
+  @apply bg-gray-200 cursor-not-allowed;
+}

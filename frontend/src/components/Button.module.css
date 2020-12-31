@@ -1,0 +1,23 @@
+.btn {
+  @apply px-4 py-2 rounded shadow-md focus:outline-none focus:ring-2;
+}
+
+.btn:disabled {
+  @apply cursor-not-allowed opacity-70;
+}
+
+.btn.small {
+  @apply leading-none px-2 py-1.5 text-xs;
+}
+
+.btn.primary {
+  @apply bg-gradient-to-br from-blue-500 text-white to-blue-800 hover:from-blue-600 hover:to-blue-900 focus:ring-blue-400;
+}
+
+.btn.secondary {
+  @apply bg-gradient-to-br from-teal-500 text-white to-teal-800 hover:from-teal-600 hover:to-teal-900 focus:ring-teal-400;
+}
+
+.btn.danger {
+  @apply bg-gradient-to-br from-red-500 text-white to-red-800 hover:from-red-600 hover:to-red-900 focus:ring-red-400;
+}
