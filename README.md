@@ -33,9 +33,9 @@ I approached the task.
 
 2. Navigate to /frontend in your cloned repo (from step 2 above).
 
-3. Run the command `npm install` to install the necessary dependencies (in a different shell from the one in step 3 above).
+3. Run the command `npm install` to install the necessary dependencies (in a different shell from the one in step 3 above). This could take a minute or two.
 
-4. Once step 3 is complete, run the command `npm run dev`.
+4. Once step 3 is complete, run the command `npm run dev`. This could also take some time. You may have to continue to step 5 after a few seconds to trigger Next.js to compile the page you're trying to load.
 
 5. Navigate to `http://localhost:3000` in a browser to see the application and interact with it.
 
