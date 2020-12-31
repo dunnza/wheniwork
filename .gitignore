@@ -10,3 +10,10 @@ obj/
 
 # Private server config files
 .config/
+
+# Node.js modules folder
+node_modules/
+
+# Next.js specific files
+.next/
+.env*.local
